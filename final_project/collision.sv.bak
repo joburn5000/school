@@ -1,0 +1,7 @@
+module collision(
+	input Reset, frame_clk,
+	input logic [9:0] pmissileX, pmissileY, amissileX, amissileY, ship_X, enemyX,
+	input logic [6:0] enemy_hit,
+	input [9:0][5:0] grid,
+	output logic playercollide, aliencollide
+)

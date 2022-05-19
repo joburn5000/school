@@ -1,0 +1,29 @@
+module alien_grid( input		logic	Reset,
+						 input		logic [6:0] enemy_hit,
+						 input		logic hit,
+
+						 output	logic [9:0][5:0]	alien_grid );
+						 
+	always_ff @ (posedge Reset or posedge hit) begin
+	
+	if (Reset) begin
+		alien_grid <= { 6'b111111,
+							6'b111111,
+							6'b111111,
+							6'b111111,
+							6'b111111,
+							6'b111111,
+							6'b111111,
+							6'b111111,
+							6'b111111,
+							6'b111111 };
+	end
+	
+	else if(hit) begin
+			alien_grid[enemy_hit[6:3]][enemy_hit[2:0]] <= 1'b0;
+	end
+	
+	end
+
+
+endmodule
