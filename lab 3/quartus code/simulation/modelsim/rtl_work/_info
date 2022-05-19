@@ -1,0 +1,286 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code/simulation/modelsim
+vadder2
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1644602041
+!i10b 1
+!s100 =>f2`T:2b4nKD8[hd`iB03
+IYgFcEgOQO`:Ng1h3W1`4:0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 adder2_sv_unit
+S1
+R0
+Z4 w1644601958
+8C:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code/adder2.sv
+FC:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code/adder2.sv
+L0 1
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1644602041.000000
+!s107 C:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code/adder2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code|C:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code/adder2.sv|
+!i113 1
+Z7 o-sv -work work
+Z8 !s92 -sv -work work {+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code}
+Z9 tCvgOpt 0
+vbit_adder
+R1
+Z10 !s110 1644602040
+!i10b 1
+!s100 @9J^?hgC>E1?mC4Ej09Ed0
+Il>f;oQ^^loFgV2iBB=WI[0
+R3
+Z11 !s105 ripple_adder_sv_unit
+S1
+R0
+Z12 w1644473892
+Z13 8C:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code/ripple_adder.sv
+Z14 FC:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code/ripple_adder.sv
+L0 1
+R5
+r1
+!s85 0
+31
+Z15 !s108 1644602040.000000
+Z16 !s107 C:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code/ripple_adder.sv|
+Z17 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code|C:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code/ripple_adder.sv|
+!i113 1
+R7
+R8
+R9
+vcontrol
+R1
+R2
+!i10b 1
+!s100 4^T<MW:^Hhf;SGQ2_b=Kk3
+IdkKMgXB18B2Jbc]0^o1b]1
+R3
+!s105 control_sv_unit
+S1
+R0
+Z18 w1644270466
+8C:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code/control.sv
+FC:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code/control.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code/control.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code|C:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code/control.sv|
+!i113 1
+R7
+R8
+R9
+vHexDriver
+R1
+R2
+!i10b 1
+!s100 F7dDJLKONLDlAhT4ll@HA3
+I1i87b;4`PN7IW2fT[Vnb40
+R3
+!s105 HexDriver_sv_unit
+S1
+R0
+R18
+8C:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code/HexDriver.sv
+FC:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code/HexDriver.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code|C:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code/HexDriver.sv|
+!i113 1
+R7
+R8
+R9
+n@hex@driver
+vlookahead_adder
+R1
+R2
+!i10b 1
+!s100 eb[N]V[kdUfHWnfii8N5g2
+I7a@Mi06a5iOn@N@XbHX_J0
+R3
+Z19 !s105 lookahead_adder_sv_unit
+S1
+R0
+Z20 w1644601666
+Z21 8C:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code/lookahead_adder.sv
+Z22 FC:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code/lookahead_adder.sv
+L0 40
+R5
+r1
+!s85 0
+31
+R15
+Z23 !s107 C:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code/lookahead_adder.sv|
+Z24 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code|C:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code/lookahead_adder.sv|
+!i113 1
+R7
+R8
+R9
+vnibble_adder
+R1
+R10
+!i10b 1
+!s100 e2@Tdng^;TcUDzBj_:cPO1
+IN`VZPZMzaaeOLQ=cXb6=92
+R3
+R11
+S1
+R0
+R12
+R13
+R14
+L0 13
+R5
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R7
+R8
+R9
+vnibble_lookahead_adder
+R1
+R2
+!i10b 1
+!s100 C>GK^]a2FIjFRG0BV[]W21
+I3IC9=Sh0a;BUL5U;jFDF_3
+R3
+R19
+S1
+R0
+R20
+R21
+R22
+L0 1
+R5
+r1
+!s85 0
+31
+R15
+R23
+R24
+!i113 1
+R7
+R8
+R9
+vreg_17
+R1
+R10
+!i10b 1
+!s100 TzXnY51aIaIZFVKcdA[Wn1
+I=g?=Q3g@;QRXmOKdjP4C03
+R3
+!s105 reg_17_sv_unit
+S1
+R0
+R18
+8C:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code/reg_17.sv
+FC:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code/reg_17.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code/reg_17.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code|C:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code/reg_17.sv|
+!i113 1
+R7
+R8
+R9
+vripple_adder
+R1
+R10
+!i10b 1
+!s100 k[LKk:KMm7J5]^V<FV4V81
+I;ChRLdcW[L[1zJ?Ta@50N1
+R3
+R11
+S1
+R0
+R12
+R13
+R14
+L0 31
+R5
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R7
+R8
+R9
+vrouter
+R1
+R10
+!i10b 1
+!s100 0oS5^3aI5<4lR1GZZPnaj2
+II@imU?SD0VYdn[i_eYSMl3
+R3
+!s105 router_sv_unit
+S1
+R0
+R18
+8C:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code/router.sv
+FC:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code/router.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code/router.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code|C:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code/router.sv|
+!i113 1
+R7
+R8
+R9
+vtestbench
+R1
+R2
+!i10b 1
+!s100 =9Z^l>eUOA0RN>kNQj]]]1
+I7cIi0^>mQz5<V2L;8<NDN2
+R3
+!s105 testbench_sv_unit
+S1
+R0
+R4
+8C:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code/testbench.sv
+FC:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code/testbench.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code|C:/Users/beallis3/Desktop/ece385-sp2022/lab 3/quartus code/testbench.sv|
+!i113 1
+R7
+R8
+R9

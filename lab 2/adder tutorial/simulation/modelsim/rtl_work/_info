@@ -1,0 +1,85 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/joshu/OneDrive/Documents/spring 2022/385/lab 2/adder tutorial/simulation/modelsim
+vadder2
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1643780026
+!i10b 1
+!s100 bf<>1=ib80IBfCJ0Cob_93
+IAzADAP3aMAO=H@NNofm>[1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 adder2_sv_unit
+S1
+R0
+w1643779962
+8C:/Users/joshu/OneDrive/Documents/spring 2022/385/lab 2/adder tutorial/adder2.sv
+FC:/Users/joshu/OneDrive/Documents/spring 2022/385/lab 2/adder tutorial/adder2.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1643780026.000000
+!s107 C:/Users/joshu/OneDrive/Documents/spring 2022/385/lab 2/adder tutorial/adder2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385/lab 2/adder tutorial|C:/Users/joshu/OneDrive/Documents/spring 2022/385/lab 2/adder tutorial/adder2.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work {+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385/lab 2/adder tutorial}
+Z8 tCvgOpt 0
+vfull_adder
+R1
+R2
+!i10b 1
+!s100 dUhjE1[]MjM^D5nA7Ao471
+IQccaGRZ_?Jkale;7i>imB3
+R3
+!s105 full_adder_sv_unit
+S1
+R0
+w1643735785
+8C:/Users/joshu/OneDrive/Documents/spring 2022/385/lab 2/adder tutorial/full_adder.sv
+FC:/Users/joshu/OneDrive/Documents/spring 2022/385/lab 2/adder tutorial/full_adder.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/joshu/OneDrive/Documents/spring 2022/385/lab 2/adder tutorial/full_adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385/lab 2/adder tutorial|C:/Users/joshu/OneDrive/Documents/spring 2022/385/lab 2/adder tutorial/full_adder.sv|
+!i113 1
+R6
+R7
+R8
+vtestbench
+R1
+R2
+!i10b 1
+!s100 7kl3EF_j3i032=j[CPQ6i1
+Iagmz>fQ46jlL2MbCZQAiL2
+R3
+!s105 testbench_sv_unit
+S1
+R0
+w1643779960
+8C:/Users/joshu/OneDrive/Documents/spring 2022/385/lab 2/adder tutorial/testbench.sv
+FC:/Users/joshu/OneDrive/Documents/spring 2022/385/lab 2/adder tutorial/testbench.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/joshu/OneDrive/Documents/spring 2022/385/lab 2/adder tutorial/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385/lab 2/adder tutorial|C:/Users/joshu/OneDrive/Documents/spring 2022/385/lab 2/adder tutorial/testbench.sv|
+!i113 1
+R6
+R7
+R8

@@ -1,0 +1,896 @@
+Partition Merge report for slc3_sramtop
+Mon Mar 21 23:18:11 2022
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Partition Merge Summary
+  3. Partition Merge Netlist Types Used
+  4. Connections to In-System Debugging Instance "auto_signaltap_0"
+  5. Partition Merge Partition Statistics
+  6. Partition Merge Partition Pin Processing
+  7. Partition Merge Resource Usage Summary
+  8. Partition Merge RAM Summary
+  9. Partition Merge Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Partition Merge Summary                                                          ;
++------------------------------------+---------------------------------------------+
+; Partition Merge Status             ; Successful - Mon Mar 21 23:18:11 2022       ;
+; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                      ; slc3_sramtop                                ;
+; Top-level Entity Name              ; slc3_sramtop                                ;
+; Family                             ; MAX 10                                      ;
+; Total logic elements               ; 3,612                                       ;
+;     Total combinational functions  ; 1,846                                       ;
+;     Dedicated logic registers      ; 2,487                                       ;
+; Total registers                    ; 2487                                        ;
+; Total pins                         ; 51                                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 2,363,392                                   ;
+; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Total PLLs                         ; 0                                           ;
+; UFM blocks                         ; 0                                           ;
+; ADC blocks                         ; 0                                           ;
++------------------------------------+---------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Partition Merge Netlist Types Used                                                                                            ;
++--------------------------------+----------------+-------------------+------------------------+--------------------------------+
+; Partition Name                 ; Partition Type ; Netlist Type Used ; Netlist Type Requested ; Partition Contents             ;
++--------------------------------+----------------+-------------------+------------------------+--------------------------------+
+; Top                            ; User-created   ; Source File       ; Source File            ;                                ;
+; sld_hub:auto_hub               ; Auto-generated ; Post-Synthesis    ; Post-Synthesis         ; sld_hub:auto_hub               ;
+; sld_signaltap:auto_signaltap_0 ; Auto-generated ; Post-Synthesis    ; Post-Synthesis         ; sld_signaltap:auto_signaltap_0 ;
+; hard_block:auto_generated_inst ; Auto-generated ; Source File       ; Source File            ; hard_block:auto_generated_inst ;
++--------------------------------+----------------+-------------------+------------------------+--------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Connections to In-System Debugging Instance "auto_signaltap_0"                                                                                                                                                                                              ;
++----------------------------------------+---------------+-----------+--------------------------------+-------------------+----------------------------------------+------------------------------------------------------------------------------------------+
+; Name                                   ; Type          ; Status    ; Partition Name                 ; Netlist Type Used ; Actual Connection                      ; Details                                                                                  ;
++----------------------------------------+---------------+-----------+--------------------------------+-------------------+----------------------------------------+------------------------------------------------------------------------------------------+
+; Clk                                    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; Clk                                    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[0][0]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[0][0]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[0][0]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[0][0]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[0][10]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[0][10]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[0][10]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[0][10]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[0][11]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[0][11]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[0][11]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[0][11]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[0][12]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[0][12]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[0][12]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[0][12]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[0][13]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[0][13]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[0][13]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[0][13]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[0][14]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[0][14]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[0][14]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[0][14]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[0][15]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[0][15]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[0][15]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[0][15]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[0][1]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[0][1]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[0][1]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[0][1]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[0][2]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[0][2]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[0][2]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[0][2]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[0][3]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[0][3]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[0][3]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[0][3]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[0][4]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[0][4]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[0][4]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[0][4]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[0][5]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[0][5]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[0][5]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[0][5]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[0][6]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[0][6]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[0][6]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[0][6]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[0][7]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[0][7]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[0][7]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[0][7]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[0][8]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[0][8]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[0][8]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[0][8]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[0][9]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[0][9]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[0][9]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[0][9]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[2][0]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[2][0]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[2][0]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[2][0]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[2][10]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[2][10]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[2][10]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[2][10]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[2][11]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[2][11]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[2][11]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[2][11]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[2][12]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[2][12]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[2][12]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[2][12]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[2][13]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[2][13]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[2][13]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[2][13]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[2][14]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[2][14]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[2][14]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[2][14]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[2][15]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[2][15]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[2][15]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[2][15]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[2][1]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[2][1]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[2][1]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[2][1]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[2][2]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[2][2]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[2][2]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[2][2]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[2][3]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[2][3]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[2][3]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[2][3]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[2][4]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[2][4]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[2][4]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[2][4]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[2][5]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[2][5]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[2][5]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[2][5]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[2][6]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[2][6]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[2][6]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[2][6]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[2][7]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[2][7]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[2][7]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[2][7]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[2][8]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[2][8]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[2][8]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[2][8]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[2][9]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[2][9]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[2][9]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[2][9]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[3][0]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[3][0]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[3][0]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[3][0]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[3][10]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[3][10]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[3][10]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[3][10]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[3][11]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[3][11]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[3][11]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[3][11]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[3][12]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[3][12]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[3][12]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[3][12]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[3][13]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[3][13]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[3][13]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[3][13]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[3][14]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[3][14]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[3][14]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[3][14]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[3][15]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[3][15]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[3][15]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[3][15]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[3][1]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[3][1]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[3][1]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[3][1]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[3][2]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[3][2]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[3][2]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[3][2]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[3][3]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[3][3]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[3][3]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[3][3]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[3][4]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[3][4]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[3][4]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[3][4]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[3][5]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[3][5]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[3][5]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[3][5]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[3][6]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[3][6]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[3][6]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[3][6]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[3][7]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[3][7]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[3][7]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[3][7]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[3][8]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[3][8]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[3][8]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[3][8]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[3][9]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[3][9]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[3][9]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[3][9]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[4][0]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[4][0]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[4][0]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[4][0]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[4][10]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[4][10]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[4][10]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[4][10]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[4][11]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[4][11]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[4][11]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[4][11]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[4][12]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[4][12]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[4][12]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[4][12]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[4][13]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[4][13]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[4][13]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[4][13]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[4][14]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[4][14]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[4][14]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[4][14]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[4][15]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[4][15]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[4][15]   ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[4][15]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[4][1]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[4][1]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[4][1]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[4][1]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[4][2]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[4][2]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[4][2]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[4][2]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[4][3]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[4][3]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[4][3]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[4][3]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[4][4]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[4][4]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[4][4]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[4][4]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[4][5]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[4][5]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[4][5]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[4][5]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[4][6]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[4][6]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[4][6]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[4][6]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[4][7]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[4][7]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[4][7]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[4][7]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[4][8]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[4][8]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[4][8]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[4][8]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[4][9]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[4][9]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[4][9]    ; pre-synthesis ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[4][9]    ; N/A                                                                                      ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND    ; N/A                                                                                      ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND    ; N/A                                                                                      ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND    ; N/A                                                                                      ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND    ; N/A                                                                                      ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND    ; N/A                                                                                      ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND    ; N/A                                                                                      ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND    ; N/A                                                                                      ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND    ; N/A                                                                                      ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND    ; N/A                                                                                      ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND    ; N/A                                                                                      ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND    ; N/A                                                                                      ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND    ; N/A                                                                                      ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND    ; N/A                                                                                      ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND    ; N/A                                                                                      ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND    ; N/A                                                                                      ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND    ; N/A                                                                                      ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND    ; N/A                                                                                      ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND    ; N/A                                                                                      ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND    ; N/A                                                                                      ;
+; auto_signaltap_0|gnd                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~GND    ; N/A                                                                                      ;
+; auto_signaltap_0|vcc                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC    ; N/A                                                                                      ;
+; auto_signaltap_0|vcc                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC    ; N/A                                                                                      ;
+; auto_signaltap_0|vcc                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC    ; N/A                                                                                      ;
+; auto_signaltap_0|vcc                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC    ; N/A                                                                                      ;
+; auto_signaltap_0|vcc                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC    ; N/A                                                                                      ;
+; auto_signaltap_0|vcc                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC    ; N/A                                                                                      ;
+; auto_signaltap_0|vcc                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC    ; N/A                                                                                      ;
+; auto_signaltap_0|vcc                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC    ; N/A                                                                                      ;
+; auto_signaltap_0|vcc                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC    ; N/A                                                                                      ;
+; auto_signaltap_0|vcc                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC    ; N/A                                                                                      ;
+; auto_signaltap_0|vcc                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC    ; N/A                                                                                      ;
+; auto_signaltap_0|vcc                   ; post-fitting  ; connected ; sld_signaltap:auto_signaltap_0 ; post-synthesis    ; sld_signaltap:auto_signaltap_0|~VCC    ; N/A                                                                                      ;
+; slc3:slc|reg_16:PC_reg|Data_Out[0]~16  ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_16:PC_reg|Data_Out[0]~16  ; N/A                                                                                      ;
+; slc3:slc|reg_16:PC_reg|Data_Out[0]~16  ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_16:PC_reg|Data_Out[0]~16  ; N/A                                                                                      ;
+; slc3:slc|reg_16:PC_reg|Data_Out[10]~38 ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_16:PC_reg|Data_Out[10]~38 ; N/A                                                                                      ;
+; slc3:slc|reg_16:PC_reg|Data_Out[10]~38 ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_16:PC_reg|Data_Out[10]~38 ; N/A                                                                                      ;
+; slc3:slc|reg_16:PC_reg|Data_Out[11]~40 ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_16:PC_reg|Data_Out[11]~40 ; N/A                                                                                      ;
+; slc3:slc|reg_16:PC_reg|Data_Out[11]~40 ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_16:PC_reg|Data_Out[11]~40 ; N/A                                                                                      ;
+; slc3:slc|reg_16:PC_reg|Data_Out[12]~42 ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_16:PC_reg|Data_Out[12]~42 ; N/A                                                                                      ;
+; slc3:slc|reg_16:PC_reg|Data_Out[12]~42 ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_16:PC_reg|Data_Out[12]~42 ; N/A                                                                                      ;
+; slc3:slc|reg_16:PC_reg|Data_Out[13]~44 ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_16:PC_reg|Data_Out[13]~44 ; N/A                                                                                      ;
+; slc3:slc|reg_16:PC_reg|Data_Out[13]~44 ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_16:PC_reg|Data_Out[13]~44 ; N/A                                                                                      ;
+; slc3:slc|reg_16:PC_reg|Data_Out[14]~18 ; post-fitting  ; missing   ; Top                            ; post-synthesis    ; GND                                    ; The post-fitting netlist is not being used.  Set the partition's netlist type to source. ;
+; slc3:slc|reg_16:PC_reg|Data_Out[14]~18 ; post-fitting  ; missing   ; Top                            ; post-synthesis    ; GND                                    ; The post-fitting netlist is not being used.  Set the partition's netlist type to source. ;
+; slc3:slc|reg_16:PC_reg|Data_Out[15]~48 ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_16:PC_reg|Data_Out[15]~48 ; N/A                                                                                      ;
+; slc3:slc|reg_16:PC_reg|Data_Out[15]~48 ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_16:PC_reg|Data_Out[15]~48 ; N/A                                                                                      ;
+; slc3:slc|reg_16:PC_reg|Data_Out[1]~20  ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_16:PC_reg|Data_Out[1]~20  ; N/A                                                                                      ;
+; slc3:slc|reg_16:PC_reg|Data_Out[1]~20  ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_16:PC_reg|Data_Out[1]~20  ; N/A                                                                                      ;
+; slc3:slc|reg_16:PC_reg|Data_Out[2]~22  ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_16:PC_reg|Data_Out[2]~22  ; N/A                                                                                      ;
+; slc3:slc|reg_16:PC_reg|Data_Out[2]~22  ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_16:PC_reg|Data_Out[2]~22  ; N/A                                                                                      ;
+; slc3:slc|reg_16:PC_reg|Data_Out[3]~24  ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_16:PC_reg|Data_Out[3]~24  ; N/A                                                                                      ;
+; slc3:slc|reg_16:PC_reg|Data_Out[3]~24  ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_16:PC_reg|Data_Out[3]~24  ; N/A                                                                                      ;
+; slc3:slc|reg_16:PC_reg|Data_Out[4]~26  ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_16:PC_reg|Data_Out[4]~26  ; N/A                                                                                      ;
+; slc3:slc|reg_16:PC_reg|Data_Out[4]~26  ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_16:PC_reg|Data_Out[4]~26  ; N/A                                                                                      ;
+; slc3:slc|reg_16:PC_reg|Data_Out[5]~28  ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_16:PC_reg|Data_Out[5]~28  ; N/A                                                                                      ;
+; slc3:slc|reg_16:PC_reg|Data_Out[5]~28  ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_16:PC_reg|Data_Out[5]~28  ; N/A                                                                                      ;
+; slc3:slc|reg_16:PC_reg|Data_Out[6]~30  ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_16:PC_reg|Data_Out[6]~30  ; N/A                                                                                      ;
+; slc3:slc|reg_16:PC_reg|Data_Out[6]~30  ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_16:PC_reg|Data_Out[6]~30  ; N/A                                                                                      ;
+; slc3:slc|reg_16:PC_reg|Data_Out[7]~32  ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_16:PC_reg|Data_Out[7]~32  ; N/A                                                                                      ;
+; slc3:slc|reg_16:PC_reg|Data_Out[7]~32  ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_16:PC_reg|Data_Out[7]~32  ; N/A                                                                                      ;
+; slc3:slc|reg_16:PC_reg|Data_Out[8]~34  ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_16:PC_reg|Data_Out[8]~34  ; N/A                                                                                      ;
+; slc3:slc|reg_16:PC_reg|Data_Out[8]~34  ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_16:PC_reg|Data_Out[8]~34  ; N/A                                                                                      ;
+; slc3:slc|reg_16:PC_reg|Data_Out[9]~36  ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_16:PC_reg|Data_Out[9]~36  ; N/A                                                                                      ;
+; slc3:slc|reg_16:PC_reg|Data_Out[9]~36  ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_16:PC_reg|Data_Out[9]~36  ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[1][0]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[1][0]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[1][0]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[1][0]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[1][10]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[1][10]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[1][10]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[1][10]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[1][11]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[1][11]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[1][11]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[1][11]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[1][12]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[1][12]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[1][12]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[1][12]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[1][13]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[1][13]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[1][13]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[1][13]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[1][14]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[1][14]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[1][14]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[1][14]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[1][15]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[1][15]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[1][15]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[1][15]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[1][1]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[1][1]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[1][1]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[1][1]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[1][2]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[1][2]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[1][2]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[1][2]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[1][3]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[1][3]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[1][3]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[1][3]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[1][4]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[1][4]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[1][4]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[1][4]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[1][5]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[1][5]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[1][5]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[1][5]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[1][6]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[1][6]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[1][6]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[1][6]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[1][7]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[1][7]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[1][7]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[1][7]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[1][8]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[1][8]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[1][8]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[1][8]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[1][9]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[1][9]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[1][9]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[1][9]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[5][0]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[5][0]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[5][0]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[5][0]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[5][10]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[5][10]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[5][10]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[5][10]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[5][11]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[5][11]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[5][11]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[5][11]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[5][12]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[5][12]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[5][12]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[5][12]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[5][13]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[5][13]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[5][13]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[5][13]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[5][14]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[5][14]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[5][14]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[5][14]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[5][15]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[5][15]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[5][15]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[5][15]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[5][1]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[5][1]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[5][1]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[5][1]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[5][2]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[5][2]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[5][2]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[5][2]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[5][3]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[5][3]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[5][3]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[5][3]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[5][4]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[5][4]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[5][4]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[5][4]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[5][5]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[5][5]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[5][5]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[5][5]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[5][6]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[5][6]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[5][6]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[5][6]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[5][7]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[5][7]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[5][7]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[5][7]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[5][8]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[5][8]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[5][8]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[5][8]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[5][9]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[5][9]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[5][9]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[5][9]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[6][0]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[6][0]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[6][0]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[6][0]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[6][10]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[6][10]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[6][10]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[6][10]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[6][11]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[6][11]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[6][11]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[6][11]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[6][12]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[6][12]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[6][12]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[6][12]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[6][13]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[6][13]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[6][13]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[6][13]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[6][14]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[6][14]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[6][14]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[6][14]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[6][15]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[6][15]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[6][15]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[6][15]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[6][1]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[6][1]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[6][1]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[6][1]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[6][2]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[6][2]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[6][2]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[6][2]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[6][3]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[6][3]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[6][3]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[6][3]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[6][4]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[6][4]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[6][4]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[6][4]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[6][5]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[6][5]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[6][5]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[6][5]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[6][6]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[6][6]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[6][6]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[6][6]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[6][7]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[6][7]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[6][7]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[6][7]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[6][8]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[6][8]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[6][8]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[6][8]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[6][9]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[6][9]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[6][9]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[6][9]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[7][0]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[7][0]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[7][0]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[7][0]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[7][10]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[7][10]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[7][10]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[7][10]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[7][11]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[7][11]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[7][11]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[7][11]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[7][12]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[7][12]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[7][12]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[7][12]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[7][13]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[7][13]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[7][13]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[7][13]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[7][14]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[7][14]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[7][14]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[7][14]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[7][15]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[7][15]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[7][15]   ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[7][15]   ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[7][1]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[7][1]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[7][1]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[7][1]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[7][2]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[7][2]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[7][2]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[7][2]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[7][3]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[7][3]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[7][3]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[7][3]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[7][4]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[7][4]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[7][4]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[7][4]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[7][5]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[7][5]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[7][5]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[7][5]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[7][6]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[7][6]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[7][6]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[7][6]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[7][7]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[7][7]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[7][7]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[7][7]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[7][8]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[7][8]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[7][8]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[7][8]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[7][9]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[7][9]    ; N/A                                                                                      ;
+; slc3:slc|reg_file:registers|R[7][9]    ; post-fitting  ; connected ; Top                            ; post-synthesis    ; slc3:slc|reg_file:registers|R[7][9]    ; N/A                                                                                      ;
++----------------------------------------+---------------+-----------+--------------------------------+-------------------+----------------------------------------+------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------+
+; Partition Merge Partition Statistics                                                                                                    ;
++---------------------------------------------+------+------------------+--------------------------------+--------------------------------+
+; Statistic                                   ; Top  ; sld_hub:auto_hub ; sld_signaltap:auto_signaltap_0 ; hard_block:auto_generated_inst ;
++---------------------------------------------+------+------------------+--------------------------------+--------------------------------+
+; Estimated Total logic elements              ; 994  ; 153              ; 2466                           ; 0                              ;
+;                                             ;      ;                  ;                                ;                                ;
+; Total combinational functions               ; 847  ; 126              ; 873                            ; 0                              ;
+; Logic element usage by number of LUT inputs ;      ;                  ;                                ;                                ;
+;     -- 4 input functions                    ; 594  ; 54               ; 471                            ; 0                              ;
+;     -- 3 input functions                    ; 194  ; 37               ; 269                            ; 0                              ;
+;     -- <=2 input functions                  ; 59   ; 35               ; 133                            ; 0                              ;
+;                                             ;      ;                  ;                                ;                                ;
+; Logic elements by mode                      ;      ;                  ;                                ;                                ;
+;     -- normal mode                          ; 788  ; 118              ; 775                            ; 0                              ;
+;     -- arithmetic mode                      ; 59   ; 8                ; 98                             ; 0                              ;
+;                                             ;      ;                  ;                                ;                                ;
+; Total registers                             ; 258  ; 91               ; 2138                           ; 0                              ;
+;     -- Dedicated logic registers            ; 258  ; 91               ; 2138                           ; 0                              ;
+;     -- I/O registers                        ; 0    ; 0                ; 0                              ; 0                              ;
+;                                             ;      ;                  ;                                ;                                ;
+; Virtual pins                                ; 0    ; 0                ; 0                              ; 0                              ;
+; I/O pins                                    ; 51   ; 0                ; 0                              ; 0                              ;
+; Embedded Multiplier 9-bit elements          ; 0    ; 0                ; 0                              ; 0                              ;
+; Total memory bits                           ; 4096 ; 0                ; 2359296                        ; 0                              ;
+; Total RAM block bits                        ; 0    ; 0                ; 0                              ; 0                              ;
+; JTAG                                        ; 1    ; 0                ; 0                              ; 0                              ;
+;                                             ;      ;                  ;                                ;                                ;
+; Connections                                 ;      ;                  ;                                ;                                ;
+;     -- Input Connections                    ; 1    ; 134              ; 3473                           ; 0                              ;
+;     -- Registered Input Connections         ; 0    ; 102              ; 2465                           ; 0                              ;
+;     -- Output Connections                   ; 3130 ; 444              ; 34                             ; 0                              ;
+;     -- Registered Output Connections        ; 256  ; 444              ; 0                              ; 0                              ;
+;                                             ;      ;                  ;                                ;                                ;
+; Internal Connections                        ;      ;                  ;                                ;                                ;
+;     -- Total Connections                    ; 7302 ; 1134             ; 18340                          ; 0                              ;
+;     -- Registered Connections               ; 1550 ; 905              ; 14301                          ; 0                              ;
+;                                             ;      ;                  ;                                ;                                ;
+; External Connections                        ;      ;                  ;                                ;                                ;
+;     -- Top                                  ; 0    ; 123              ; 3008                           ; 0                              ;
+;     -- sld_hub:auto_hub                     ; 123  ; 20               ; 435                            ; 0                              ;
+;     -- sld_signaltap:auto_signaltap_0       ; 3008 ; 435              ; 64                             ; 0                              ;
+;     -- hard_block:auto_generated_inst       ; 0    ; 0                ; 0                              ; 0                              ;
+;                                             ;      ;                  ;                                ;                                ;
+; Partition Interface                         ;      ;                  ;                                ;                                ;
+;     -- Input Ports                          ; 16   ; 45               ; 501                            ; 0                              ;
+;     -- Output Ports                         ; 103  ; 62               ; 303                            ; 0                              ;
+;     -- Bidir Ports                          ; 0    ; 0                ; 0                              ; 0                              ;
+;                                             ;      ;                  ;                                ;                                ;
+; Registered Ports                            ;      ;                  ;                                ;                                ;
+;     -- Registered Input Ports               ; 0    ; 4                ; 295                            ; 0                              ;
+;     -- Registered Output Ports              ; 0    ; 29               ; 289                            ; 0                              ;
+;                                             ;      ;                  ;                                ;                                ;
+; Port Connectivity                           ;      ;                  ;                                ;                                ;
+;     -- Input Ports driven by GND            ; 0    ; 0                ; 22                             ; 0                              ;
+;     -- Output Ports driven by GND           ; 0    ; 28               ; 2                              ; 0                              ;
+;     -- Input Ports driven by VCC            ; 0    ; 0                ; 12                             ; 0                              ;
+;     -- Output Ports driven by VCC           ; 0    ; 0                ; 1                              ; 0                              ;
+;     -- Input Ports with no Source           ; 0    ; 25               ; 148                            ; 0                              ;
+;     -- Output Ports with no Source          ; 0    ; 0                ; 0                              ; 0                              ;
+;     -- Input Ports with no Fanout           ; 0    ; 30               ; 162                            ; 0                              ;
+;     -- Output Ports with no Fanout          ; 0    ; 29               ; 291                            ; 0                              ;
++---------------------------------------------+------+------------------+--------------------------------+--------------------------------+
+Note: Resource usage numbers presented for Partitions containing post-synthesis logic are estimates.  For Partitions containing post-fit logic, resource usage numbers are accurate based on previous placement information.  Actual Fitter results may vary depending on current Fitter Preservation Level assignments.
+
+
++----------------------------------------------------------------------------------------+
+; Partition Merge Partition Pin Processing                                               ;
++-----------------------------------+-----------+---------------+----------+-------------+
+; Name                              ; Partition ; Type          ; Location ; Status      ;
++-----------------------------------+-----------+---------------+----------+-------------+
+; Clk                               ; Top       ; Input Port    ; n/a      ;             ;
+;     -- Clk                        ; Top       ; Input Pad     ; Unplaced ; Synthesized ;
+;     -- Clk~input                  ; Top       ; Input Buffer  ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; Continue                          ; Top       ; Input Port    ; n/a      ;             ;
+;     -- Continue                   ; Top       ; Input Pad     ; Unplaced ; Synthesized ;
+;     -- Continue~input             ; Top       ; Input Buffer  ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; HEX0[0]                           ; Top       ; Output Port   ; n/a      ;             ;
+;     -- HEX0[0]                    ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- HEX0[0]~output             ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; HEX0[1]                           ; Top       ; Output Port   ; n/a      ;             ;
+;     -- HEX0[1]                    ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- HEX0[1]~output             ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; HEX0[2]                           ; Top       ; Output Port   ; n/a      ;             ;
+;     -- HEX0[2]                    ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- HEX0[2]~output             ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; HEX0[3]                           ; Top       ; Output Port   ; n/a      ;             ;
+;     -- HEX0[3]                    ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- HEX0[3]~output             ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; HEX0[4]                           ; Top       ; Output Port   ; n/a      ;             ;
+;     -- HEX0[4]                    ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- HEX0[4]~output             ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; HEX0[5]                           ; Top       ; Output Port   ; n/a      ;             ;
+;     -- HEX0[5]                    ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- HEX0[5]~output             ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; HEX0[6]                           ; Top       ; Output Port   ; n/a      ;             ;
+;     -- HEX0[6]                    ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- HEX0[6]~output             ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; HEX1[0]                           ; Top       ; Output Port   ; n/a      ;             ;
+;     -- HEX1[0]                    ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- HEX1[0]~output             ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; HEX1[1]                           ; Top       ; Output Port   ; n/a      ;             ;
+;     -- HEX1[1]                    ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- HEX1[1]~output             ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; HEX1[2]                           ; Top       ; Output Port   ; n/a      ;             ;
+;     -- HEX1[2]                    ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- HEX1[2]~output             ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; HEX1[3]                           ; Top       ; Output Port   ; n/a      ;             ;
+;     -- HEX1[3]                    ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- HEX1[3]~output             ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; HEX1[4]                           ; Top       ; Output Port   ; n/a      ;             ;
+;     -- HEX1[4]                    ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- HEX1[4]~output             ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; HEX1[5]                           ; Top       ; Output Port   ; n/a      ;             ;
+;     -- HEX1[5]                    ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- HEX1[5]~output             ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; HEX1[6]                           ; Top       ; Output Port   ; n/a      ;             ;
+;     -- HEX1[6]                    ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- HEX1[6]~output             ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; HEX2[0]                           ; Top       ; Output Port   ; n/a      ;             ;
+;     -- HEX2[0]                    ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- HEX2[0]~output             ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; HEX2[1]                           ; Top       ; Output Port   ; n/a      ;             ;
+;     -- HEX2[1]                    ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- HEX2[1]~output             ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; HEX2[2]                           ; Top       ; Output Port   ; n/a      ;             ;
+;     -- HEX2[2]                    ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- HEX2[2]~output             ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; HEX2[3]                           ; Top       ; Output Port   ; n/a      ;             ;
+;     -- HEX2[3]                    ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- HEX2[3]~output             ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; HEX2[4]                           ; Top       ; Output Port   ; n/a      ;             ;
+;     -- HEX2[4]                    ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- HEX2[4]~output             ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; HEX2[5]                           ; Top       ; Output Port   ; n/a      ;             ;
+;     -- HEX2[5]                    ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- HEX2[5]~output             ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; HEX2[6]                           ; Top       ; Output Port   ; n/a      ;             ;
+;     -- HEX2[6]                    ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- HEX2[6]~output             ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; HEX3[0]                           ; Top       ; Output Port   ; n/a      ;             ;
+;     -- HEX3[0]                    ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- HEX3[0]~output             ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; HEX3[1]                           ; Top       ; Output Port   ; n/a      ;             ;
+;     -- HEX3[1]                    ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- HEX3[1]~output             ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; HEX3[2]                           ; Top       ; Output Port   ; n/a      ;             ;
+;     -- HEX3[2]                    ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- HEX3[2]~output             ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; HEX3[3]                           ; Top       ; Output Port   ; n/a      ;             ;
+;     -- HEX3[3]                    ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- HEX3[3]~output             ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; HEX3[4]                           ; Top       ; Output Port   ; n/a      ;             ;
+;     -- HEX3[4]                    ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- HEX3[4]~output             ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; HEX3[5]                           ; Top       ; Output Port   ; n/a      ;             ;
+;     -- HEX3[5]                    ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- HEX3[5]~output             ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; HEX3[6]                           ; Top       ; Output Port   ; n/a      ;             ;
+;     -- HEX3[6]                    ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- HEX3[6]~output             ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; LED[0]                            ; Top       ; Output Port   ; n/a      ;             ;
+;     -- LED[0]                     ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- LED[0]~output              ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; LED[1]                            ; Top       ; Output Port   ; n/a      ;             ;
+;     -- LED[1]                     ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- LED[1]~output              ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; LED[2]                            ; Top       ; Output Port   ; n/a      ;             ;
+;     -- LED[2]                     ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- LED[2]~output              ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; LED[3]                            ; Top       ; Output Port   ; n/a      ;             ;
+;     -- LED[3]                     ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- LED[3]~output              ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; LED[4]                            ; Top       ; Output Port   ; n/a      ;             ;
+;     -- LED[4]                     ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- LED[4]~output              ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; LED[5]                            ; Top       ; Output Port   ; n/a      ;             ;
+;     -- LED[5]                     ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- LED[5]~output              ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; LED[6]                            ; Top       ; Output Port   ; n/a      ;             ;
+;     -- LED[6]                     ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- LED[6]~output              ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; LED[7]                            ; Top       ; Output Port   ; n/a      ;             ;
+;     -- LED[7]                     ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- LED[7]~output              ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; LED[8]                            ; Top       ; Output Port   ; n/a      ;             ;
+;     -- LED[8]                     ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- LED[8]~output              ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; LED[9]                            ; Top       ; Output Port   ; n/a      ;             ;
+;     -- LED[9]                     ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- LED[9]~output              ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; Run                               ; Top       ; Input Port    ; n/a      ;             ;
+;     -- Run                        ; Top       ; Input Pad     ; Unplaced ; Synthesized ;
+;     -- Run~input                  ; Top       ; Input Buffer  ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; SW[0]                             ; Top       ; Input Port    ; n/a      ;             ;
+;     -- SW[0]                      ; Top       ; Input Pad     ; Unplaced ; Synthesized ;
+;     -- SW[0]~input                ; Top       ; Input Buffer  ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; SW[1]                             ; Top       ; Input Port    ; n/a      ;             ;
+;     -- SW[1]                      ; Top       ; Input Pad     ; Unplaced ; Synthesized ;
+;     -- SW[1]~input                ; Top       ; Input Buffer  ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; SW[2]                             ; Top       ; Input Port    ; n/a      ;             ;
+;     -- SW[2]                      ; Top       ; Input Pad     ; Unplaced ; Synthesized ;
+;     -- SW[2]~input                ; Top       ; Input Buffer  ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; SW[3]                             ; Top       ; Input Port    ; n/a      ;             ;
+;     -- SW[3]                      ; Top       ; Input Pad     ; Unplaced ; Synthesized ;
+;     -- SW[3]~input                ; Top       ; Input Buffer  ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; SW[4]                             ; Top       ; Input Port    ; n/a      ;             ;
+;     -- SW[4]                      ; Top       ; Input Pad     ; Unplaced ; Synthesized ;
+;     -- SW[4]~input                ; Top       ; Input Buffer  ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; SW[5]                             ; Top       ; Input Port    ; n/a      ;             ;
+;     -- SW[5]                      ; Top       ; Input Pad     ; Unplaced ; Synthesized ;
+;     -- SW[5]~input                ; Top       ; Input Buffer  ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; SW[6]                             ; Top       ; Input Port    ; n/a      ;             ;
+;     -- SW[6]                      ; Top       ; Input Pad     ; Unplaced ; Synthesized ;
+;     -- SW[6]~input                ; Top       ; Input Buffer  ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; SW[7]                             ; Top       ; Input Port    ; n/a      ;             ;
+;     -- SW[7]                      ; Top       ; Input Pad     ; Unplaced ; Synthesized ;
+;     -- SW[7]~input                ; Top       ; Input Buffer  ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; SW[8]                             ; Top       ; Input Port    ; n/a      ;             ;
+;     -- SW[8]                      ; Top       ; Input Pad     ; Unplaced ; Synthesized ;
+;     -- SW[8]~input                ; Top       ; Input Buffer  ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; SW[9]                             ; Top       ; Input Port    ; n/a      ;             ;
+;     -- SW[9]                      ; Top       ; Input Pad     ; Unplaced ; Synthesized ;
+;     -- SW[9]~input                ; Top       ; Input Buffer  ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; altera_reserved_tck               ; Top       ; Input Port    ; n/a      ;             ;
+;     -- altera_reserved_tck        ; Top       ; Input Pad     ; Unplaced ; Synthesized ;
+;     -- altera_reserved_tck~input  ; Top       ; Input Buffer  ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; altera_reserved_tdi               ; Top       ; Input Port    ; n/a      ;             ;
+;     -- altera_reserved_tdi        ; Top       ; Input Pad     ; Unplaced ; Synthesized ;
+;     -- altera_reserved_tdi~input  ; Top       ; Input Buffer  ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; altera_reserved_tdo               ; Top       ; Output Port   ; n/a      ;             ;
+;     -- altera_reserved_tdo        ; Top       ; Output Pad    ; Unplaced ; Synthesized ;
+;     -- altera_reserved_tdo~output ; Top       ; Output Buffer ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; altera_reserved_tms               ; Top       ; Input Port    ; n/a      ;             ;
+;     -- altera_reserved_tms        ; Top       ; Input Pad     ; Unplaced ; Synthesized ;
+;     -- altera_reserved_tms~input  ; Top       ; Input Buffer  ; Unplaced ; Synthesized ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_0__0_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_0__10_ ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_0__11_ ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_0__12_ ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_0__13_ ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_0__14_ ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_0__15_ ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_0__1_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_0__2_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_0__3_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_0__4_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_0__5_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_0__6_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_0__7_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_0__8_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_0__9_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_2__0_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_2__10_ ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_2__11_ ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_2__12_ ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_2__13_ ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_2__14_ ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_2__15_ ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_2__1_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_2__2_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_2__3_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_2__4_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_2__5_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_2__6_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_2__7_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_2__8_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_2__9_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_3__0_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_3__10_ ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_3__11_ ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_3__12_ ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_3__13_ ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_3__14_ ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_3__15_ ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_3__1_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_3__2_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_3__3_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_3__4_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_3__5_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_3__6_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_3__7_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_3__8_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_3__9_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_4__0_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_4__10_ ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_4__11_ ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_4__12_ ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_4__13_ ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_4__14_ ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_4__15_ ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_4__1_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_4__2_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_4__3_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_4__4_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_4__5_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_4__6_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_4__7_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_4__8_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
+; pre_syn.bp.slc_registers_R_4__9_  ; Top       ; Output Port   ; n/a      ;             ;
+;                                   ;           ;               ;          ;             ;
++-----------------------------------+-----------+---------------+----------+-------------+
+
+
++---------------------------------------------------------+
+; Partition Merge Resource Usage Summary                  ;
++---------------------------------------------+-----------+
+; Resource                                    ; Usage     ;
++---------------------------------------------+-----------+
+; Estimated Total logic elements              ; 3,612     ;
+;                                             ;           ;
+; Total combinational functions               ; 1846      ;
+; Logic element usage by number of LUT inputs ;           ;
+;     -- 4 input functions                    ; 1119      ;
+;     -- 3 input functions                    ; 500       ;
+;     -- <=2 input functions                  ; 227       ;
+;                                             ;           ;
+; Logic elements by mode                      ;           ;
+;     -- normal mode                          ; 1681      ;
+;     -- arithmetic mode                      ; 165       ;
+;                                             ;           ;
+; Total registers                             ; 2487      ;
+;     -- Dedicated logic registers            ; 2487      ;
+;     -- I/O registers                        ; 0         ;
+;                                             ;           ;
+; I/O pins                                    ; 51        ;
+; Total memory bits                           ; 2363392   ;
+;                                             ;           ;
+; Embedded Multiplier 9-bit elements          ; 0         ;
+;                                             ;           ;
+; Maximum fan-out node                        ; Clk~input ;
+; Maximum fan-out                             ; 1891      ;
+; Total fan-out                               ; 22898     ;
+; Average fan-out                             ; 4.82      ;
++---------------------------------------------+-----------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Partition Merge RAM Summary                                                                                                                                                                                                                                                                                  ;
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+---------+------+
+; Name                                                                                                                                                                                                  ; Type ; Mode             ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size    ; MIF  ;
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+---------+------+
+; ram:ram0|altsyncram:altsyncram_component|altsyncram_d9g1:auto_generated|ALTSYNCRAM                                                                                                                    ; M9K  ; Single Port      ; 256          ; 16           ; --           ; --           ; 4096    ; None ;
+; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altsyncram:\stp_non_zero_ram_gen:stp_buffer_ram|altsyncram_gs14:auto_generated|ALTSYNCRAM ; AUTO ; Simple Dual Port ; 16384        ; 144          ; 16384        ; 144          ; 2359296 ; None ;
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+---------+------+
+
+
++--------------------------+
+; Partition Merge Messages ;
++--------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Partition Merge
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+    Info: Processing started: Mon Mar 21 23:18:08 2022
+Info: Command: quartus_cdb --read_settings_files=off --write_settings_files=off slc3_sramtop -c slc3_sramtop --merge=on
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (35007): Using synthesis netlist for partition "Top"
+Info (35007): Using synthesis netlist for partition "sld_hub:auto_hub"
+Info (35007): Using synthesis netlist for partition "sld_signaltap:auto_signaltap_0"
+Critical Warning (35025): Partially connected in-system debug instance "auto_signaltap_0" to 319 of its 321 required data inputs, trigger inputs, acquisition clocks, and dynamic pins.  There were 0 illegal, 0 inaccessible, and 2 missing sources or connections.
+Info (35002): Resolved and merged 3 partition(s)
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Critical Warning (138067): Current license file does not support incremental compilation. The Quartus Prime software removes all the user-specified design partitions in the design automatically.
+Info (21057): Implemented 4023 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 16 input pins
+    Info (21059): Implemented 39 output pins
+    Info (21061): Implemented 3663 logic cells
+    Info (21064): Implemented 304 RAM segments
+Info: Quartus Prime Partition Merge was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 4706 megabytes
+    Info: Processing ended: Mon Mar 21 23:18:11 2022
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:03
+
+

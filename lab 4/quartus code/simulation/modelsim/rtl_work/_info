@@ -1,0 +1,211 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/simulation/modelsim
+vbit_adder
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1646100248
+!i10b 1
+!s100 @9J^?hgC>E1?mC4Ej09Ed0
+I8J`CzFH9Cb_VZQ1o3NmE`1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 lookahead_adder_sv_unit
+S1
+R0
+Z5 w1646092791
+Z6 8C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/lookahead_adder.sv
+Z7 FC:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/lookahead_adder.sv
+L0 1
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1646100248.000000
+Z10 !s107 C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/lookahead_adder.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code|C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/lookahead_adder.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work {+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code}
+Z14 tCvgOpt 0
+vcontrol
+R1
+R2
+!i10b 1
+!s100 KPkTgcnzRRV`[8DMoXoO90
+I:0gg>MI;fz3?[l;aOn^?F1
+R3
+!s105 control_sv_unit
+S1
+R0
+R5
+8C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/control.sv
+FC:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/control.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/control.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code|C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/control.sv|
+!i113 1
+R12
+R13
+R14
+vHexDriver
+R1
+R2
+!i10b 1
+!s100 ^;>8:[UMnANT[H7m<QSCU2
+IF>;nlJ[E0_gC]bLE;_?K60
+R3
+!s105 HexDriver_sv_unit
+S1
+R0
+R5
+8C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/HexDriver.sv
+FC:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/HexDriver.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code|C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/HexDriver.sv|
+!i113 1
+R12
+R13
+R14
+n@hex@driver
+vlookahead_adder
+R1
+R2
+!i10b 1
+!s100 DkBBO_mdf8BRm_U][`47h3
+ID52<[ULmjS03H]S9EZjzh3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 43
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vmultiplier
+R1
+Z15 !s110 1646100249
+!i10b 1
+!s100 2[Se4:He27bOcOL^;Eknf2
+I;zd2mmI8hoFoCM_M`M_Ro2
+R3
+!s105 multiplier_sv_unit
+S1
+R0
+R5
+8C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/multiplier.sv
+FC:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/multiplier.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/multiplier.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code|C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/multiplier.sv|
+!i113 1
+R12
+R13
+R14
+vnibble_lookahead_adder
+R1
+R2
+!i10b 1
+!s100 7=049aD9OIB0d<=zE<k`[0
+Ik72Qb<F4B:7c4ao1iXKcZ2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 13
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vreg_8
+R1
+R2
+!i10b 1
+!s100 AXDzj?_?eZ4hKcKof@=bm2
+Ifl`DNUDHB`Ni4XYM8mcQ32
+R3
+!s105 register_unit_sv_unit
+S1
+R0
+R5
+8C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/register_unit.sv
+FC:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/register_unit.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/register_unit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code|C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/register_unit.sv|
+!i113 1
+R12
+R13
+R14
+vtestbench
+R1
+R15
+!i10b 1
+!s100 8PC]`NW_llg;5CMhZncm`2
+I>7BEhJDP4@cA80X?a:HD]1
+R3
+!s105 testbench_sv_unit
+S1
+R0
+w1646100224
+8C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/testbench.sv
+FC:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/testbench.sv
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1646100249.000000
+!s107 C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code|C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/testbench.sv|
+!i113 1
+R12
+R13
+R14

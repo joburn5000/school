@@ -1,0 +1,12 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385/385/lab\ 4/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385/385/lab 4/quartus code/control.sv}
+vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385/385/lab\ 4/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385/385/lab 4/quartus code/lookahead_adder.sv}
+vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385/385/lab\ 4/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385/385/lab 4/quartus code/register_unit.sv}
+vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385/385/lab\ 4/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385/385/lab 4/quartus code/multiplier.sv}
+

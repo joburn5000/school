@@ -1,0 +1,52 @@
+onerror {resume}
+quietly WaveActivateNextPane {} 0
+add wave -noupdate /testbench/slc3_testtop/SW
+add wave -noupdate /testbench/slc3_testtop/Clk
+add wave -noupdate /testbench/slc3_testtop/Run
+add wave -noupdate /testbench/slc3_testtop/Continue
+add wave -noupdate /testbench/slc3_testtop/LED
+add wave -noupdate /testbench/slc3_testtop/HEX0
+add wave -noupdate /testbench/slc3_testtop/HEX1
+add wave -noupdate /testbench/slc3_testtop/HEX2
+add wave -noupdate /testbench/slc3_testtop/HEX3
+add wave -noupdate /testbench/slc3_testtop/RUN_S
+add wave -noupdate /testbench/slc3_testtop/CONTINUE_S
+add wave -noupdate /testbench/slc3_testtop/Data_from_SRAM
+add wave -noupdate /testbench/slc3_testtop/Data_to_SRAM
+add wave -noupdate /testbench/slc3_testtop/OE
+add wave -noupdate /testbench/slc3_testtop/WE
+add wave -noupdate /testbench/slc3_testtop/ADDR
+add wave -noupdate /testbench/slc3_testtop/Reset_ah
+add wave -noupdate /testbench/slc3_testtop/Continue_ah
+add wave -noupdate /testbench/slc3_testtop/Run_ah
+add wave -noupdate /testbench/slc3_testtop/slc/state_controller/State
+add wave -noupdate -expand /testbench/slc3_testtop/slc/registers/R
+add wave -noupdate /testbench/slc3_testtop/slc/LD_MAR
+add wave -noupdate /testbench/slc3_testtop/slc/LD_MDR
+add wave -noupdate /testbench/slc3_testtop/slc/LD_IR
+add wave -noupdate /testbench/slc3_testtop/slc/LD_BEN
+add wave -noupdate /testbench/slc3_testtop/slc/LD_CC
+add wave -noupdate /testbench/slc3_testtop/slc/LD_REG
+add wave -noupdate /testbench/slc3_testtop/slc/LD_PC
+add wave -noupdate /testbench/slc3_testtop/slc/LD_LED
+add wave -noupdate /testbench/slc3_testtop/slc/MAR
+add wave -noupdate /testbench/slc3_testtop/slc/MDR
+add wave -noupdate /testbench/slc3_testtop/slc/IR
+TreeUpdate [SetDefaultTree]
+WaveRestoreCursors {{Cursor 1} {499403 ps} 0}
+quietly wave cursor active 1
+configure wave -namecolwidth 359
+configure wave -valuecolwidth 100
+configure wave -justifyvalue left
+configure wave -signalnamewidth 0
+configure wave -snapdistance 10
+configure wave -datasetprefix 0
+configure wave -rowmargin 4
+configure wave -childrowmargin 2
+configure wave -gridoffset 0
+configure wave -gridperiod 1
+configure wave -griddelta 40
+configure wave -timeline 0
+configure wave -timelineunits ns
+update
+WaveRestoreZoom {0 ps} {1050 ns}

@@ -1,0 +1,122 @@
+# Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do multiplier_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab\ 4/quartus\ code {C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:04:08 on Feb 28,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code" C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/control.sv 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 20:04:08 on Feb 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab\ 4/quartus\ code {C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/lookahead_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:04:08 on Feb 28,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code" C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/lookahead_adder.sv 
+# -- Compiling module bit_adder
+# -- Compiling module nibble_lookahead_adder
+# -- Compiling module lookahead_adder
+# 
+# Top level modules:
+# 	lookahead_adder
+# End time: 20:04:08 on Feb 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab\ 4/quartus\ code {C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/register_unit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:04:08 on Feb 28,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code" C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/register_unit.sv 
+# -- Compiling module reg_8
+# 
+# Top level modules:
+# 	reg_8
+# End time: 20:04:08 on Feb 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab\ 4/quartus\ code {C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:04:08 on Feb 28,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code" C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 20:04:08 on Feb 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab\ 4/quartus\ code {C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/multiplier.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:04:08 on Feb 28,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code" C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/multiplier.sv 
+# -- Compiling module multiplier
+# 
+# Top level modules:
+# 	multiplier
+# End time: 20:04:09 on Feb 28,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab\ 4/quartus\ code {C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:04:09 on Feb 28,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code" C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 20:04:09 on Feb 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 20:04:09 on Feb 28,2022
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.multiplier
+# Loading work.control
+# Loading work.lookahead_adder
+# Loading work.nibble_lookahead_adder
+# Loading work.bit_adder
+# Loading work.reg_8
+# Loading work.HexDriver
+# ** Warning: (vsim-3015) C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/multiplier.sv(26): [PCDPC] - Port size (9) does not match connection size (32) for port 'B'. The port definition is at: C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/lookahead_adder.sv(44).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/multiplier0/negative File: C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/lookahead_adder.sv
+# ** Warning: (vsim-3015) C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/multiplier.sv(26): [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/lookahead_adder.sv(45).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/multiplier0/negative File: C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/lookahead_adder.sv
+# ** Warning: (vsim-3015) C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/multiplier.sv(40): [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/lookahead_adder.sv(45).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/multiplier0/add File: C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/lookahead_adder.sv
+# ** Warning: (vsim-3015) C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/multiplier.sv(40): [PCDPC] - Port size (9) does not match connection size (10) for port 'S'. The port definition is at: C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/lookahead_adder.sv(46).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/multiplier0/add File: C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/lookahead_adder.sv
+# ** Warning: (vsim-3015) C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/multiplier.sv(46): [PCDPC] - Port size (1) does not match connection size (32) for port 'Shift_In'. The port definition is at: C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/register_unit.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/multiplier0/X_reg File: C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/register_unit.sv
+# ** Warning: (vsim-3015) C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/multiplier.sv(46): [PCDPC] - Port size (1) does not match connection size (32) for port 'Shift_En'. The port definition is at: C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/register_unit.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/multiplier0/X_reg File: C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/register_unit.sv
+# ** Warning: (vsim-3015) C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/multiplier.sv(46): [PCDPC] - Port size (8) does not match connection size (1) for port 'Data_Out'. The port definition is at: C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/register_unit.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/multiplier0/X_reg File: C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/register_unit.sv
+# ** Warning: (vsim-3015) C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/multiplier.sv(47): [PCDPC] - Port size (1) does not match connection size (32) for port 'Reset'. The port definition is at: C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/register_unit.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/multiplier0/B_reg File: C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/register_unit.sv
+# ** Warning: (vsim-3839) C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/multiplier.sv(47): Variable '/testbench/multiplier0/dont_care[3]', driven via a port connection, is multiply driven. See C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/multiplier.sv(46).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/multiplier0/B_reg File: C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/register_unit.sv
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 2500 ns
+# ** Warning: (vsim-8315) C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/control.sv(41): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/multiplier0/run
+# ** Warning: (vsim-8315) C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/control.sv(41): No condition is true in the unique/priority if/case statement.
+#    Time: 60 ns  Iteration: 1  Instance: /testbench/multiplier0/run
+# ** Warning: (vsim-8315) C:/Users/beallis3/Desktop/ece385-sp2022/lab 4/quartus code/control.sv(41): No condition is true in the unique/priority if/case statement.
+#    Time: 100 ns  Iteration: 1  Instance: /testbench/multiplier0/run
+# Not equal!
+# End time: 20:05:32 on Feb 28,2022, Elapsed time: 0:01:23
+# Errors: 0, Warnings: 12

@@ -1,0 +1,37 @@
+module testbench()
+
+module testbench();
+
+timeunit 10ns;
+
+timeprecision 1ns;
+
+
+logic [9:0] SW,
+logic	Clk, Reset, Run, Continue,
+logic [9:0] LED,
+logic [15:0] Data_from_SRAM,
+logic OE, WE,
+logic [6:0] HEX0, HEX1, HEX2, HEX3,
+logic [15:0] ADDR,
+logic [15:0] Data_to_SRAM
+
+slc3 slc3(.*);
+
+always begin : CLOCK_GENERATION
+#1 Clk = ~Clk;
+end
+
+initial begin : CLOCK_INITIALIZATION
+	Clk = 0;
+end
+
+initial begin : TEST_VECTORS
+
+// Load Value into B
+# 4 Run = 1
+# 4 Run = 0
+# 4 Run = 1
+	
+end
+endmodule

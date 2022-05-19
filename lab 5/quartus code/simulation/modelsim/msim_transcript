@@ -1,0 +1,1002 @@
+# Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do slc3_sramtop_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab\ 5/quartus\ code {C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/mux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+<<<<<<< HEAD
+# Start time: 19:25:35 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/mux.sv 
+=======
+# Start time: 23:23:59 on Mar 21,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code" C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/mux.sv 
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+# -- Compiling module mux_2
+# -- Compiling module mux_2_3
+# -- Compiling module mux_4
+# -- Compiling module mux_16
+# 
+# Top level modules:
+# 	mux_2
+# 	mux_2_3
+# 	mux_4
+# 	mux_16
+<<<<<<< HEAD
+# End time: 19:25:35 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/register_unit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:35 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/register_unit.sv 
+=======
+# End time: 23:23:59 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab\ 5/quartus\ code {C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/register_unit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:23:59 on Mar 21,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code" C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/register_unit.sv 
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+# -- Compiling module reg_16
+# -- Compiling module reg_8
+# -- Compiling module reg_3
+# -- Compiling module reg_1
+# 
+# Top level modules:
+# 	reg_16
+# 	reg_8
+# 	reg_3
+# 	reg_1
+<<<<<<< HEAD
+# End time: 19:25:35 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:35 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/HexDriver.sv 
+=======
+# End time: 23:23:59 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab\ 5/quartus\ code {C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:23:59 on Mar 21,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code" C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/HexDriver.sv 
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+<<<<<<< HEAD
+# End time: 19:25:35 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/test_memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:35 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/test_memory.sv 
+=======
+# End time: 23:23:59 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab\ 5/quartus\ code {C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/test_memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:23:59 on Mar 21,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code" C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/test_memory.sv 
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+# -- Compiling module test_memory
+# 
+# Top level modules:
+# 	test_memory
+<<<<<<< HEAD
+# End time: 19:25:35 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/synchronizers.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:35 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/synchronizers.sv 
+=======
+# End time: 23:23:59 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab\ 5/quartus\ code {C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/synchronizers.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:24:00 on Mar 21,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code" C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/synchronizers.sv 
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+# -- Compiling module sync
+# -- Compiling module sync_r0
+# -- Compiling module sync_r1
+# 
+# Top level modules:
+# 	sync
+# 	sync_r0
+# 	sync_r1
+<<<<<<< HEAD
+# End time: 19:25:35 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/SLC3_2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:35 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/SLC3_2.sv 
+=======
+# End time: 23:24:00 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab\ 5/quartus\ code {C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/SLC3_2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:24:00 on Mar 21,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code" C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/SLC3_2.sv 
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+# -- Compiling package SLC3_2
+# 
+# Top level modules:
+# 	--none--
+<<<<<<< HEAD
+# End time: 19:25:35 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/Mem2IO.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:35 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/Mem2IO.sv 
+=======
+# End time: 23:24:00 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab\ 5/quartus\ code {C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/Mem2IO.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:24:00 on Mar 21,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code" C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/Mem2IO.sv 
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+# -- Compiling module Mem2IO
+# 
+# Top level modules:
+# 	Mem2IO
+<<<<<<< HEAD
+# End time: 19:25:35 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/ISDU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:35 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/ISDU.sv 
+=======
+# End time: 23:24:00 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab\ 5/quartus\ code {C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/ISDU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:24:00 on Mar 21,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code" C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/ISDU.sv 
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+# -- Compiling module ISDU
+# 
+# Top level modules:
+# 	ISDU
+<<<<<<< HEAD
+# End time: 19:25:36 on Mar 12,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/reg_file.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:36 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/reg_file.sv 
+=======
+# End time: 23:24:00 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab\ 5/quartus\ code {C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/reg_file.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:24:00 on Mar 21,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code" C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/reg_file.sv 
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+<<<<<<< HEAD
+# End time: 19:25:36 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:36 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/ALU.sv 
+=======
+# End time: 23:24:00 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab\ 5/quartus\ code {C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:24:00 on Mar 21,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code" C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/ALU.sv 
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+# -- Compiling module ALU_module
+# 
+# Top level modules:
+# 	ALU_module
+<<<<<<< HEAD
+# End time: 19:25:36 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/slc3.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:36 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/slc3.sv 
+=======
+# End time: 23:24:00 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab\ 5/quartus\ code {C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/slc3.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:24:01 on Mar 21,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code" C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/slc3.sv 
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+# -- Compiling module slc3
+# 
+# Top level modules:
+# 	slc3
+<<<<<<< HEAD
+# End time: 19:25:36 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/memory_contents.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:36 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/memory_contents.sv 
+=======
+# End time: 23:24:01 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab\ 5/quartus\ code {C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/memory_contents.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:24:01 on Mar 21,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code" C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/memory_contents.sv 
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+# -- Compiling package memory_contents_sv_unit
+# -- Importing package SLC3_2
+# -- Compiling module memory_parser
+# 
+# Top level modules:
+# 	memory_parser
+<<<<<<< HEAD
+# End time: 19:25:36 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/slc3_testtop.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:36 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/slc3_testtop.sv 
+=======
+# End time: 23:24:01 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab\ 5/quartus\ code {C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/slc3_testtop.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:24:01 on Mar 21,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code" C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/slc3_testtop.sv 
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+# -- Compiling module slc3_testtop
+# 
+# Top level modules:
+# 	slc3_testtop
+<<<<<<< HEAD
+# End time: 19:25:36 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:36 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/testbench.sv 
+=======
+# End time: 23:24:01 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab\ 5/quartus\ code {C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:24:01 on Mar 21,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code" C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/testbench.sv 
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+<<<<<<< HEAD
+# End time: 19:25:36 on Mar 12,2022, Elapsed time: 0:00:00
+=======
+# End time: 23:24:01 on Mar 21,2022, Elapsed time: 0:00:00
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
+<<<<<<< HEAD
+# Start time: 19:25:36 on Mar 12,2022
+=======
+# Start time: 23:24:01 on Mar 21,2022
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.slc3_testtop
+# Loading work.slc3
+# Loading work.reg_file
+# Loading work.ALU_module
+# Loading work.reg_16
+# Loading work.reg_3
+# Loading work.reg_1
+# Loading work.mux_2
+# Loading work.mux_4
+# Loading work.mux_16
+# Loading work.mux_2_3
+# Loading work.Mem2IO
+# Loading work.ISDU
+# Loading work.test_memory
+# Loading work.SLC3_2
+# Loading work.memory_contents_sv_unit
+# Loading work.memory_parser
+# Loading work.HexDriver
+# Loading work.sync
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Josh  Hostname: MACHINE1000  ProcessID: 21816
+<<<<<<< HEAD
+#           Attempting to use alternate WLF file "./wlft9gcrrj".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft9gcrrj
+=======
+#           Attempting to use alternate WLF file "./wlft4fkdsx".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft4fkdsx
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 2 us
+<<<<<<< HEAD
+do {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/simulation/modelsim/XOR.do}
+restart
+run
+do {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/simulation/modelsim/XOR.do}
+do {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/simulation/modelsim/XOR.do}
+restart
+run
+do slc3_sramtop_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/mux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:27:14 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/mux.sv 
+# -- Compiling module mux_2
+# -- Compiling module mux_2_3
+# -- Compiling module mux_4
+# -- Compiling module mux_16
+# 
+# Top level modules:
+# 	mux_2
+# 	mux_2_3
+# 	mux_4
+# 	mux_16
+# End time: 19:27:14 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/register_unit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:27:14 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/register_unit.sv 
+# -- Compiling module reg_16
+# -- Compiling module reg_8
+# -- Compiling module reg_3
+# -- Compiling module reg_1
+# 
+# Top level modules:
+# 	reg_16
+# 	reg_8
+# 	reg_3
+# 	reg_1
+# End time: 19:27:14 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:27:14 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 19:27:15 on Mar 12,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/test_memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:27:15 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/test_memory.sv 
+# -- Compiling module test_memory
+# 
+# Top level modules:
+# 	test_memory
+# End time: 19:27:15 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/synchronizers.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:27:15 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/synchronizers.sv 
+# -- Compiling module sync
+# -- Compiling module sync_r0
+# -- Compiling module sync_r1
+# 
+# Top level modules:
+# 	sync
+# 	sync_r0
+# 	sync_r1
+# End time: 19:27:15 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/SLC3_2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:27:15 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/SLC3_2.sv 
+# -- Compiling package SLC3_2
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:27:15 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/Mem2IO.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:27:15 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/Mem2IO.sv 
+# -- Compiling module Mem2IO
+# 
+# Top level modules:
+# 	Mem2IO
+# End time: 19:27:15 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/ISDU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:27:15 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/ISDU.sv 
+# -- Compiling module ISDU
+# 
+# Top level modules:
+# 	ISDU
+# End time: 19:27:15 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/reg_file.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:27:15 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/reg_file.sv 
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+# End time: 19:27:15 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:27:15 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/ALU.sv 
+# -- Compiling module ALU_module
+# 
+# Top level modules:
+# 	ALU_module
+# End time: 19:27:15 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/slc3.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:27:15 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/slc3.sv 
+# -- Compiling module slc3
+# 
+# Top level modules:
+# 	slc3
+# End time: 19:27:15 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/memory_contents.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:27:15 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/memory_contents.sv 
+# -- Compiling package memory_contents_sv_unit
+# -- Importing package SLC3_2
+# -- Compiling module memory_parser
+# 
+# Top level modules:
+# 	memory_parser
+# End time: 19:27:16 on Mar 12,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/slc3_testtop.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:27:16 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/slc3_testtop.sv 
+# -- Compiling module slc3_testtop
+# 
+# Top level modules:
+# 	slc3_testtop
+# End time: 19:27:16 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:27:16 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 19:27:16 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 19:27:18 on Mar 12,2022, Elapsed time: 0:01:42
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 19:27:18 on Mar 12,2022
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.slc3_testtop
+# Loading work.slc3
+# Loading work.reg_file
+# Loading work.ALU_module
+# Loading work.reg_16
+# Loading work.reg_3
+# Loading work.reg_1
+# Loading work.mux_2
+# Loading work.mux_4
+# Loading work.mux_16
+# Loading work.mux_2_3
+# Loading work.Mem2IO
+# Loading work.ISDU
+# Loading work.test_memory
+# Loading work.SLC3_2
+# Loading work.memory_contents_sv_unit
+# Loading work.memory_parser
+# Loading work.HexDriver
+# Loading work.sync
+# WARNING: No extended dataflow license exists
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Josh  Hostname: MACHINE1000  ProcessID: 21816
+#           Attempting to use alternate WLF file "./wlftfry7ra".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftfry7ra
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 2 us
+do {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/simulation/modelsim/XOR.do}
+run
+restart
+run
+do slc3_sramtop_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/mux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:29:53 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/mux.sv 
+# -- Compiling module mux_2
+# -- Compiling module mux_2_3
+# -- Compiling module mux_4
+# -- Compiling module mux_16
+# 
+# Top level modules:
+# 	mux_2
+# 	mux_2_3
+# 	mux_4
+# 	mux_16
+# End time: 19:29:53 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/register_unit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:29:53 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/register_unit.sv 
+# -- Compiling module reg_16
+# -- Compiling module reg_8
+# -- Compiling module reg_3
+# -- Compiling module reg_1
+# 
+# Top level modules:
+# 	reg_16
+# 	reg_8
+# 	reg_3
+# 	reg_1
+# End time: 19:29:54 on Mar 12,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:29:54 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 19:29:54 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/test_memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:29:54 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/test_memory.sv 
+# -- Compiling module test_memory
+# 
+# Top level modules:
+# 	test_memory
+# End time: 19:29:54 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/synchronizers.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:29:54 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/synchronizers.sv 
+# -- Compiling module sync
+# -- Compiling module sync_r0
+# -- Compiling module sync_r1
+# 
+# Top level modules:
+# 	sync
+# 	sync_r0
+# 	sync_r1
+# End time: 19:29:54 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/SLC3_2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:29:54 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/SLC3_2.sv 
+# -- Compiling package SLC3_2
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:29:54 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/Mem2IO.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:29:54 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/Mem2IO.sv 
+# -- Compiling module Mem2IO
+# 
+# Top level modules:
+# 	Mem2IO
+# End time: 19:29:54 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/ISDU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:29:54 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/ISDU.sv 
+# -- Compiling module ISDU
+# 
+# Top level modules:
+# 	ISDU
+# End time: 19:29:54 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/reg_file.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:29:54 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/reg_file.sv 
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+# End time: 19:29:54 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:29:54 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/ALU.sv 
+# -- Compiling module ALU_module
+# 
+# Top level modules:
+# 	ALU_module
+# End time: 19:29:54 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/slc3.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:29:55 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/slc3.sv 
+# -- Compiling module slc3
+# 
+# Top level modules:
+# 	slc3
+# End time: 19:29:55 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/memory_contents.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:29:55 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/memory_contents.sv 
+# -- Compiling package memory_contents_sv_unit
+# -- Importing package SLC3_2
+# -- Compiling module memory_parser
+# 
+# Top level modules:
+# 	memory_parser
+# End time: 19:29:55 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/slc3_testtop.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:29:55 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/slc3_testtop.sv 
+# -- Compiling module slc3_testtop
+# 
+# Top level modules:
+# 	slc3_testtop
+# End time: 19:29:55 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:29:55 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 19:29:55 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 19:29:58 on Mar 12,2022, Elapsed time: 0:02:40
+# Errors: 0, Warnings: 3
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 19:29:58 on Mar 12,2022
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.slc3_testtop
+# Loading work.slc3
+# Loading work.reg_file
+# Loading work.ALU_module
+# Loading work.reg_16
+# Loading work.reg_3
+# Loading work.reg_1
+# Loading work.mux_2
+# Loading work.mux_4
+# Loading work.mux_16
+# Loading work.mux_2_3
+# Loading work.Mem2IO
+# Loading work.ISDU
+# Loading work.test_memory
+# Loading work.SLC3_2
+# Loading work.memory_contents_sv_unit
+# Loading work.memory_parser
+# Loading work.HexDriver
+# Loading work.sync
+# WARNING: No extended dataflow license exists
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Josh  Hostname: MACHINE1000  ProcessID: 21816
+#           Attempting to use alternate WLF file "./wlftre8a1r".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftre8a1r
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 2 us
+do {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/simulation/modelsim/XOR.do}
+restart
+run
+run
+do slc3_sramtop_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/mux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:25 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/mux.sv 
+# -- Compiling module mux_2
+# -- Compiling module mux_2_3
+# -- Compiling module mux_4
+# -- Compiling module mux_16
+# 
+# Top level modules:
+# 	mux_2
+# 	mux_2_3
+# 	mux_4
+# 	mux_16
+# End time: 19:43:26 on Mar 12,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/register_unit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:26 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/register_unit.sv 
+# -- Compiling module reg_16
+# -- Compiling module reg_8
+# -- Compiling module reg_3
+# -- Compiling module reg_1
+# 
+# Top level modules:
+# 	reg_16
+# 	reg_8
+# 	reg_3
+# 	reg_1
+# End time: 19:43:26 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:26 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 19:43:26 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/test_memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:26 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/test_memory.sv 
+# -- Compiling module test_memory
+# 
+# Top level modules:
+# 	test_memory
+# End time: 19:43:26 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/synchronizers.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:26 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/synchronizers.sv 
+# -- Compiling module sync
+# -- Compiling module sync_r0
+# -- Compiling module sync_r1
+# 
+# Top level modules:
+# 	sync
+# 	sync_r0
+# 	sync_r1
+# End time: 19:43:26 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/SLC3_2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:26 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/SLC3_2.sv 
+# -- Compiling package SLC3_2
+# 
+# Top level modules:
+# 	--none--
+# End time: 19:43:26 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/Mem2IO.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:27 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/Mem2IO.sv 
+# -- Compiling module Mem2IO
+# 
+# Top level modules:
+# 	Mem2IO
+# End time: 19:43:27 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/ISDU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:27 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/ISDU.sv 
+# -- Compiling module ISDU
+# 
+# Top level modules:
+# 	ISDU
+# End time: 19:43:27 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/reg_file.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:27 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/reg_file.sv 
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+# End time: 19:43:27 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:27 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/ALU.sv 
+# -- Compiling module ALU_module
+# 
+# Top level modules:
+# 	ALU_module
+# End time: 19:43:27 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/slc3.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:27 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/slc3.sv 
+# -- Compiling module slc3
+# 
+# Top level modules:
+# 	slc3
+# End time: 19:43:27 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/memory_contents.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:27 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/memory_contents.sv 
+# -- Compiling package memory_contents_sv_unit
+# -- Importing package SLC3_2
+# -- Compiling module memory_parser
+# 
+# Top level modules:
+# 	memory_parser
+# End time: 19:43:27 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/slc3_testtop.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:27 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/slc3_testtop.sv 
+# -- Compiling module slc3_testtop
+# 
+# Top level modules:
+# 	slc3_testtop
+# End time: 19:43:28 on Mar 12,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/joshu/OneDrive/Documents/spring\ 2022/385_/385/lab\ 5/quartus\ code {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:28 on Mar 12,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code" C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 19:43:28 on Mar 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 19:43:31 on Mar 12,2022, Elapsed time: 0:13:33
+# Errors: 0, Warnings: 3
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 19:43:31 on Mar 12,2022
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.slc3_testtop
+# Loading work.slc3
+# Loading work.reg_file
+# Loading work.ALU_module
+# Loading work.reg_16
+# Loading work.reg_3
+# Loading work.reg_1
+# Loading work.mux_2
+# Loading work.mux_4
+# Loading work.mux_16
+# Loading work.mux_2_3
+# Loading work.Mem2IO
+# Loading work.ISDU
+# Loading work.test_memory
+# Loading work.SLC3_2
+# Loading work.memory_contents_sv_unit
+# Loading work.memory_parser
+# Loading work.HexDriver
+# Loading work.sync
+# WARNING: No extended dataflow license exists
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Josh  Hostname: MACHINE1000  ProcessID: 21816
+#           Attempting to use alternate WLF file "./wlftwvtfkr".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftwvtfkr
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 2 us
+do {C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/simulation/modelsim/XOR.do}
+restart
+run
+# End time: 19:47:35 on Mar 12,2022, Elapsed time: 0:04:04
+# Errors: 0, Warnings: 3
+=======
+add wave -position insertpoint  \
+sim:/testbench/slc3_testtop/slc/hex_4
+restart
+run
+run
+# End time: 23:45:59 on Mar 21,2022, Elapsed time: 0:21:58
+# Errors: 0, Warnings: 2
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c

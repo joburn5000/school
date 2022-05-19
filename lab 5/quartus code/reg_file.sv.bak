@@ -1,0 +1,5 @@
+module reg_file(input [15:0] BUS,
+					input [2:0] DR, SR1, SR2,
+					input LD_reg,
+					output logic [15:0] SR2_out, SR1_out)
+

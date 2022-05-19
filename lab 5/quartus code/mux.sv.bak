@@ -1,0 +1,46 @@
+module mux_2(
+	input select
+	input [15:0] 	A, B,
+	output [15:0] 	C
+	)
+begin
+case (select):
+	1'0	: C = A;
+	1'1	: C = B; 
+endcase
+end
+
+
+module mux_4(
+	input [1:0] select
+	input [15:0] 	A, B, C, D,
+	output [15:0] 	E
+	)
+begin
+case (select):
+	1'00	: E = A;
+	1'01	: E = B; 
+	1'10	: E = C;
+	1'11	: E = D;
+endcase
+end
+
+module mux_16(
+	input [3:0] select
+	input [15:0] 	A, B, C, D, E, F, G, H, 
+	output [15:0] 	I
+	)
+begin
+case (select):
+	1'000	: I = A;
+	1'001	: I = B;
+	1'010	: I = C;
+	1'011	: I = D;
+	1'100	: I = E;
+	1'101	: I = F;
+	1'110	: I = G;
+	1'111	: I = H;
+endcase
+end
+
+

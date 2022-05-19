@@ -1,0 +1,8 @@
+<<<<<<< HEAD
+start_analysis_synthesis:s:00:01:01-start_full_compilation
+start_analysis_elaboration:s-start_full_compilation
+start_partition_merge:s:00:00:04-start_full_compilation
+=======
+start_analysis_synthesis:s:00:00:12
+start_analysis_elaboration:s
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c

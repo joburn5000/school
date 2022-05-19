@@ -1,0 +1,7 @@
+module control(
+			input SW [7:0],
+			input Clk, Reset_Load_Clear, Run,
+			output HEX1, HEX0, HEX3, HEX2,
+			output [6:0] Aval, Bval,
+			output [7:0] Xval);
+	

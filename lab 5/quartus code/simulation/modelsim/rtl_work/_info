@@ -1,0 +1,776 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/simulation/modelsim
+vALU_module
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+<<<<<<< HEAD
+Z2 !s110 1647135807
+=======
+Z2 !s110 1647923040
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+!i10b 1
+!s100 c9RnkT@8Hi>@JEzIABG:h2
+I5VcgUN`UVLcUfXL5jn6OZ3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 ALU_sv_unit
+S1
+R0
+Z4 w1646859882
+8C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/ALU.sv
+FC:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/ALU.sv
+L0 1
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+<<<<<<< HEAD
+Z5 !s108 1647135807.000000
+!s107 C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/ALU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code|C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/ALU.sv|
+=======
+Z6 !s108 1647923040.000000
+!s107 C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/ALU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code|C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/ALU.sv|
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+!i113 1
+Z7 o-sv -work work
+Z8 !s92 -sv -work work {+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code}
+Z9 tCvgOpt 0
+n@a@l@u_module
+vHexDriver
+R1
+<<<<<<< HEAD
+Z9 !s110 1647135806
+=======
+Z10 !s110 1647923039
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+!i10b 1
+!s100 F7dDJLKONLDlAhT4ll@HA3
+I?]FPV1]A3OmlTRI0YQ7Sh3
+R3
+!s105 HexDriver_sv_unit
+S1
+R0
+Z11 w1646092792
+8C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/HexDriver.sv
+FC:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/HexDriver.sv
+L0 1
+R5
+r1
+!s85 0
+31
+<<<<<<< HEAD
+Z10 !s108 1647135806.000000
+!s107 C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code|C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/HexDriver.sv|
+=======
+Z12 !s108 1647923039.000000
+!s107 C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code|C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/HexDriver.sv|
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+!i113 1
+R7
+R8
+R9
+n@hex@driver
+vISDU
+R1
+R2
+!i10b 1
+!s100 GONH@=5zKkQP`afTV@TcG1
+<<<<<<< HEAD
+IbOTgG;YRdPb02BmF3oj`j0
+=======
+I]ck?TOF0<gWUA^IaTz_=N3
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+R3
+!s105 ISDU_sv_unit
+S1
+R0
+<<<<<<< HEAD
+w1646372799
+8C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/ISDU.sv
+FC:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/ISDU.sv
+Z11 L0 24
+=======
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+R4
+8C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/ISDU.sv
+FC:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/ISDU.sv
+Z13 L0 24
+R5
+r1
+!s85 0
+31
+<<<<<<< HEAD
+R5
+!s107 C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/ISDU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code|C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/ISDU.sv|
+!i113 1
+=======
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+R6
+!s107 C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/ISDU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code|C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/ISDU.sv|
+!i113 1
+R7
+R8
+R9
+n@i@s@d@u
+vMem2IO
+R1
+R2
+!i10b 1
+!s100 4YFTHWfMJl9?^]VoZ3FA?0
+I@WOF7CMi9`1`Uz[OI_3310
+R3
+!s105 Mem2IO_sv_unit
+S1
+R0
+R11
+8C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/Mem2IO.sv
+FC:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/Mem2IO.sv
+Z14 L0 17
+R5
+r1
+!s85 0
+31
+<<<<<<< HEAD
+R5
+!s107 C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/Mem2IO.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code|C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/Mem2IO.sv|
+!i113 1
+=======
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+R6
+!s107 C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/Mem2IO.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code|C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/Mem2IO.sv|
+!i113 1
+R7
+R8
+R9
+n@mem2@i@o
+Xmemory_contents_sv_unit
+R1
+Z15 DXx4 work 6 SLC3_2 0 22 jV>><EcQWCRLjdPni:bL23
+V7D7nF_]kJZioXY`lh5cCz1
+r1
+!s85 0
+31
+!i10b 1
+!s100 3HBe^oHDgeVH<TZocfCK[0
+I7D7nF_]kJZioXY`lh5cCz1
+!i103 1
+S1
+R0
+R11
+Z16 8C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/memory_contents.sv
+Z17 FC:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/memory_contents.sv
+Z18 L0 16
+R5
+Z19 !s108 1647923041.000000
+Z20 !s107 C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/memory_contents.sv|
+Z21 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code|C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/memory_contents.sv|
+!i113 1
+R7
+R8
+R9
+vmemory_parser
+R1
+R15
+DXx4 work 23 memory_contents_sv_unit 0 22 7D7nF_]kJZioXY`lh5cCz1
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 o:B0TTcXZa[?Oo3HFa9T;0
+ILBdBj?6?K5^bFFgiJ<:d62
+!s105 memory_contents_sv_unit
+S1
+R0
+R11
+R16
+R17
+L0 18
+R5
+R19
+R20
+R21
+!i113 1
+R7
+R8
+R9
+vmux_16
+R1
+R10
+!i10b 1
+!s100 Ff2^H>?4DDgkzeO1k9P`E1
+IN<b@of<BXhZP]6LSC=_=H2
+R3
+Z22 !s105 mux_sv_unit
+S1
+R0
+<<<<<<< HEAD
+Z21 w1646372552
+Z22 8C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/mux.sv
+Z23 FC:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/mux.sv
+L0 52
+=======
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+R4
+Z23 8C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/mux.sv
+Z24 FC:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/mux.sv
+L0 52
+R5
+r1
+!s85 0
+31
+<<<<<<< HEAD
+Z24 !s108 1647135805.000000
+Z25 !s107 C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/mux.sv|
+Z26 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code|C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/mux.sv|
+=======
+R12
+Z25 !s107 C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/mux.sv|
+Z26 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code|C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/mux.sv|
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+!i113 1
+R7
+R8
+R9
+vmux_2
+R1
+R10
+!i10b 1
+!s100 4gheX>iM804XIo:bGFK?J3
+I1UU2d6?^bjh:hn80?f1^23
+R3
+R22
+S1
+R0
+R4
+R23
+R24
+L0 1
+R5
+r1
+!s85 0
+31
+<<<<<<< HEAD
+R24
+=======
+R12
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+R25
+R26
+!i113 1
+R7
+R8
+R9
+vmux_2_3
+R1
+R10
+!i10b 1
+!s100 D_M[@6j8Bk];1@GmK@`9D0
+<<<<<<< HEAD
+I6AkQ@OOK]aAh]YWMe`T]?1
+=======
+I_UTG3V6Nc4i0lgGWFhW6]0
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+R3
+R22
+S1
+R0
+R4
+R23
+R24
+R14
+R5
+r1
+!s85 0
+31
+<<<<<<< HEAD
+R24
+=======
+R12
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+R25
+R26
+!i113 1
+R7
+R8
+R9
+vmux_4
+R1
+R10
+!i10b 1
+!s100 b;S`AYUb^lGcM]fMm2JzY0
+IGeXh3bE41J4NRVRNYzoQo1
+R3
+R22
+S1
+R0
+R4
+R23
+R24
+L0 34
+R5
+r1
+!s85 0
+31
+<<<<<<< HEAD
+R24
+=======
+R12
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+R25
+R26
+!i113 1
+R7
+R8
+R9
+vreg_1
+R1
+R10
+!i10b 1
+!s100 ;nCNQ8CEf_``SmHbJOA?G0
+IKaEI05T?YgLhAlCE9;bSI1
+R3
+Z27 !s105 register_unit_sv_unit
+S1
+R0
+<<<<<<< HEAD
+Z28 w1646342930
+Z29 8C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/register_unit.sv
+Z30 FC:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/register_unit.sv
+=======
+R11
+Z28 8C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/register_unit.sv
+Z29 FC:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/register_unit.sv
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+L0 48
+R5
+r1
+!s85 0
+31
+<<<<<<< HEAD
+R10
+Z31 !s107 C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/register_unit.sv|
+Z32 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code|C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/register_unit.sv|
+=======
+R12
+Z30 !s107 C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/register_unit.sv|
+Z31 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code|C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/register_unit.sv|
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+!i113 1
+R7
+R8
+R9
+vreg_16
+R1
+R10
+!i10b 1
+!s100 fUC?dLO9:]j3l3cY?HJAk1
+IX;`]JD9N160OHhk7]dMl^2
+R3
+R27
+S1
+R0
+<<<<<<< HEAD
+=======
+R11
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+R28
+R29
+R30
+L0 1
+R5
+r1
+!s85 0
+31
+<<<<<<< HEAD
+R10
+=======
+R12
+R30
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+R31
+R32
+!i113 1
+R7
+R8
+R9
+vreg_3
+R1
+R10
+!i10b 1
+!s100 O1M`3ckfd1gCBeJ^IQM7H2
+INgbgX1Y8m0GE8NLDPiM_Q0
+R3
+R27
+S1
+R0
+<<<<<<< HEAD
+=======
+R11
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+R28
+R29
+R30
+L0 32
+R5
+r1
+!s85 0
+31
+<<<<<<< HEAD
+R10
+=======
+R12
+R30
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+R31
+R32
+!i113 1
+R7
+R8
+R9
+vreg_8
+R1
+R10
+!i10b 1
+!s100 oXn3OE7?BHL^j]<am;bfm3
+I5hV?CZn;044jK`1YWJ;2@1
+R3
+R27
+S1
+R0
+<<<<<<< HEAD
+R28
+R29
+R30
+R17
+R4
+r1
+!s85 0
+31
+R10
+=======
+R11
+R28
+R29
+R18
+R5
+r1
+!s85 0
+31
+R12
+R30
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+R31
+R32
+!i113 1
+R7
+R8
+R9
+vreg_file
+R1
+R2
+!i10b 1
+!s100 MF3aBnob2gaa_@kLF=64a0
+IbJ18f=^8M[3SkJ0L`QEX10
+R3
+!s105 reg_file_sv_unit
+S1
+R0
+R4
+8C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/reg_file.sv
+FC:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/reg_file.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/reg_file.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code|C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/reg_file.sv|
+!i113 1
+R7
+R8
+R9
+vslc3
+R1
+Z32 !s110 1647923041
+!i10b 1
+!s100 D3FJg^Y5<bD:g_00X8S3m3
+IB:l>K9m][h`[7iHUI4QLL0
+R3
+!s105 slc3_sv_unit
+S1
+R0
+R4
+8C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/slc3.sv
+FC:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/slc3.sv
+L0 27
+R5
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/slc3.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code|C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/slc3.sv|
+!i113 1
+R7
+R8
+R9
+XSLC3_2
+R1
+R2
+!i10b 1
+!s100 @8cTaS8W90PG_Z3GUn4oG3
+IjV>><EcQWCRLjdPni:bL23
+VjV>><EcQWCRLjdPni:bL23
+S1
+R0
+R11
+8C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/SLC3_2.sv
+FC:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/SLC3_2.sv
+R13
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/SLC3_2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code|C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/SLC3_2.sv|
+!i113 1
+R7
+R8
+R9
+n@s@l@c3_2
+vslc3_testtop
+R1
+<<<<<<< HEAD
+Z33 !s110 1647135808
+=======
+R32
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+!i10b 1
+!s100 ^4hhCjYV2aT;kkekDk8a71
+I^m=`2DICiRBO;IFR1ZI362
+R3
+!s105 slc3_testtop_sv_unit
+S1
+R0
+R11
+8C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/slc3_testtop.sv
+FC:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/slc3_testtop.sv
+L0 4
+R5
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/slc3_testtop.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code|C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/slc3_testtop.sv|
+!i113 1
+R7
+R8
+R9
+vsync
+R1
+R2
+!i10b 1
+!s100 OHNUFN]797>kYzRL;ikZR2
+InBX8XoX@TmNlZ`=[K`a6H2
+R3
+<<<<<<< HEAD
+Z34 !s105 synchronizers_sv_unit
+S1
+R0
+R14
+Z35 8C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/synchronizers.sv
+Z36 FC:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/synchronizers.sv
+=======
+Z33 !s105 synchronizers_sv_unit
+S1
+R0
+R11
+Z34 8C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/synchronizers.sv
+Z35 FC:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/synchronizers.sv
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+L0 7
+R5
+r1
+!s85 0
+31
+<<<<<<< HEAD
+R10
+Z37 !s107 C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/synchronizers.sv|
+Z38 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code|C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/synchronizers.sv|
+!i113 1
+=======
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+R6
+Z36 !s107 C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/synchronizers.sv|
+Z37 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code|C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/synchronizers.sv|
+!i113 1
+R7
+R8
+R9
+vsync_r0
+R1
+R2
+!i10b 1
+!s100 _Sn:CfHFjznVZen=7jc>C2
+IV6VL59JFR_SjlEUcPeS0B2
+R3
+<<<<<<< HEAD
+R34
+S1
+R0
+R14
+R35
+R36
+=======
+R33
+S1
+R0
+R11
+R34
+R35
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+L0 21
+R5
+r1
+!s85 0
+31
+<<<<<<< HEAD
+R10
+R37
+R38
+=======
+R6
+R36
+R37
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+!i113 1
+R7
+R8
+R9
+vsync_r1
+R1
+R2
+!i10b 1
+!s100 4jfZd?z`MK2Y<NLFC0<QH2
+IcX=[^Ib?^AIGna>AM3egG0
+R3
+<<<<<<< HEAD
+R34
+S1
+R0
+R14
+R35
+R36
+=======
+R33
+S1
+R0
+R11
+R34
+R35
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+L0 42
+R5
+r1
+!s85 0
+31
+<<<<<<< HEAD
+R10
+R37
+R38
+=======
+R6
+R36
+R37
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+!i113 1
+R7
+R8
+R9
+vtest_memory
+R1
+R10
+!i10b 1
+!s100 JAXhO?6GV:H>``me>_X5<1
+Ig[g_N`H7MJ1HXW^6FlngM1
+R3
+!s105 test_memory_sv_unit
+S1
+R0
+R11
+8C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/test_memory.sv
+FC:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/test_memory.sv
+L0 26
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/test_memory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code|C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/test_memory.sv|
+!i113 1
+R7
+R8
+R9
+vtestbench
+R1
+<<<<<<< HEAD
+R33
+!i10b 1
+!s100 ?^j3HPI121TAU?jTlgb=62
+Ieg:9UZ2EhGKo2J<f`Z@I]2
+=======
+R32
+!i10b 1
+!s100 ^W3aU<a:MB[eD_?3H>nbY1
+I2Glc=eSmMOdFCio2Zi5lD2
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+R3
+!s105 testbench_sv_unit
+S1
+R0
+<<<<<<< HEAD
+w1647135793
+8C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/testbench.sv
+FC:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/testbench.sv
+=======
+w1647923019
+8C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/testbench.sv
+FC:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/testbench.sv
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+L0 1
+R5
+r1
+!s85 0
+31
+<<<<<<< HEAD
+!s108 1647135808.000000
+!s107 C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code|C:/Users/joshu/OneDrive/Documents/spring 2022/385_/385/lab 5/quartus code/testbench.sv|
+=======
+R19
+!s107 C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code|C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/testbench.sv|
+>>>>>>> e6c91f8e089f482f7fd41798f3214769357f980c
+!i113 1
+R7
+R8
+R9

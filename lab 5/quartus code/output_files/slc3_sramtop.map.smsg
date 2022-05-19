@@ -1,0 +1,4 @@
+Info (10281): Verilog HDL Declaration information at slc3_sramtop.sv(7): object "Run" differs only in case from object "RUN" in the same scope File: C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/slc3_sramtop.sv Line: 7
+Info (10281): Verilog HDL Declaration information at slc3_sramtop.sv(7): object "Continue" differs only in case from object "CONTINUE" in the same scope File: C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/slc3_sramtop.sv Line: 7
+Warning (10273): Verilog HDL warning at mux.sv(65): extended using "x" or "z" File: C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/mux.sv Line: 65
+Warning (10273): Verilog HDL warning at HexDriver.sv(24): extended using "x" or "z" File: C:/Users/beallis3/Desktop/ece385-sp2022/lab 5/quartus code/HexDriver.sv Line: 24

@@ -1,0 +1,19 @@
+module ALU (input Clk, Reset, Load,
+				input [1:0] ALUK,
+				input [15:0] A, B,
+				output [15:0] ALU_out);
+
+				
+always_comb
+unique case(ALUK)
+	2'b00 : ALU_out = A + B; 			// 00: ADD
+	2'b01 : ALU_out = A & B;			// 01: AND
+	2'b10 : ALU_out = A ^ 16'FFFF;	// 10: NOT
+	2'b11 : ALU_out = A;					// 11: pass input to output
+endcase
+end
+
+endmodule
+
+// whether OP2 is SR2 or SEXT[imm5], depends on which state of ADD and AND we're in: depends on IR[5]: 0 is SR and 1 is imm5
+	// => todo: connect SR2MUX to IR[5] (check)
